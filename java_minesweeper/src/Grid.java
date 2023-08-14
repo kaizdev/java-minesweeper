@@ -8,7 +8,7 @@ public class Grid {
   static int numOfMines = 10;
   static String[][] grid = new String[gridSizeColsRows][gridSizeColsRows];
   static boolean[][] cellsRevealed = new boolean[gridSizeColsRows][gridSizeColsRows];
-  static Set<String> mines = new HashSet<>();
+  static Set<String> mines = new HashSet<>(); // HashSet ensures no duplicate mine position
   static Random random = new Random();
 
   public static void main(String[] args) {}

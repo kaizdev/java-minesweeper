@@ -12,7 +12,7 @@ public class Main {
     while (isRunning) {
       Grid.printBoard();
       System.out.print(
-        "Please enter a coordinate between 0 and 9 (in the format row,column): "
+        "Please enter a coordinate between 0 and 9 in the format row,column. (e.g. 3,5 for row 3, column 5): "
       );
 
       // Ensure user provides valid coordinate input (and prevent error from crashing console)
